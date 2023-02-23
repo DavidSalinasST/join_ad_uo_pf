@@ -6,7 +6,7 @@
   tasks:
   - name: Join AD
     win_shell: |
-      netdom.exe join $env:computername /domain:david.local /UserD:david.local\administrator /ou:OU=altaservidores,DC=david,DC=local /PasswordD:Jerico.4878
+      netdom.exe join $env:computername /domain:pacificovida.com /UserD:pacificovida.com\administrator /ou:OU=Recursos TI\Servidores\WSUS\Windows2016,DC=pacificovida,DC=com /PasswordD:Jerico.4878
     register: task_result
     ignore_errors: yes
   - name: Reboot immediately if there was a change.
