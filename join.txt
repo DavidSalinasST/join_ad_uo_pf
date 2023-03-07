@@ -1,0 +1,1 @@
+netdom.exe join $env:computername /domain:pacificovida.com /UserD:pacificovida.com\SERANSWNS /ou:OU=Windows2016,OU=WSUS,OU=Servidores,OU=Recursos,DC=pacificovida,DC=com /PasswordD:PS5Hg4WdS1e.
